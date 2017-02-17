@@ -10,14 +10,16 @@ Pod::Spec.new do |s|
 
   s.name         = "MYLib"
   s.version      = "0.0.1"
-  s.summary      = "A short description of MYLib."
+  s.summary      = "MYLib is my first test pod library."
   s.description  = <<-DESC
+                    MYLib is mingyichen's' first test pod library.
                    DESC
-  s.homepage     = "http://EXAMPLE/MYLib"
-  s.license      = "MIT (example)"
+  s.homepage     = "https://github.com/MingYi-Chen/MYLib"
+  s.license      = "Copyright (c) 2017年 ming. All rights reserved."
   s.author             = { "Ming Yi Chen" => "mingyichen1@gmail.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/MingYi-Chen/MYLib", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/MingYi-Chen/MYLib.git", :tag => "0.0.1" }
   s.source_files  = "Classes", "MYLib/*.{h,m}"
   s.requires_arc = true
+
 end
