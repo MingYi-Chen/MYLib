@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
                     MYLib is mingyichen's' first test pod library.
                    DESC
   s.homepage     = "https://github.com/MingYi-Chen/MYLib"
-  s.license      = "Copyright (c) 2017年 ming. All rights reserved."
+  s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Ming Yi Chen" => "mingyichen1@gmail.com" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/MingYi-Chen/MYLib.git", :tag => "0.0.1" }
